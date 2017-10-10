@@ -1,0 +1,36 @@
+body {
+    background-color: yellow;
+}
+
+.img-cabecalho {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.textos1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tabela-nomes {
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+th{
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
