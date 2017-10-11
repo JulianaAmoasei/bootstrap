@@ -1,36 +1,94 @@
 body {
-    background-color: yellow;
+    background-color: lightgray;
+    height: 100%;
 }
 
-.img-cabecalho {
-    max-width: 70%;
-    margin: auto;
-    margin-top: 30px;
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    width: 250px;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #462755;
+    border: none;
+}
+
+.navbar-header button {
+    margin-top: 18px;
+    background-color: lightgrey;
+}
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: lightpink;
+}
+
+.texto-intro {
+    margin-top: 100px;
+}
+
+.texto-intro p {
+    text-align: center;
+}
+
+.botao-enviar {
+    margin: 15px auto 15px auto;
+}
+
+.fotos-margem {
+    margin-top: 15px;
+}
+
+.fotos-margem div img {
+    margin-top: 20px;
+}
+
+.carrossel {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #462755;
+    padding: 10px;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.texto-footer {
+    color: #ffffff;
+}
+
+.texto-email {
+    text-decoration: none;
+}
+
+.texto-formulario {
+    margin-bottom: 20px;
+}
+
+.texto-projeto {
+    margin-top: 100px;
+}
+
+.foto-gato {
     margin-bottom: 30px;
 }
 
-.textos1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+@media screen and (max-width: 768px) {
 
-.tabela-nomes {
-    max-width: 60%;
-    text-align: center;
-    margin: auto;
-}
 
-th{
-    text-align: center;
-}
-
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: blue;
-    }
-}
-
-@media only screen and (orientation: landscape) and (max-width: 768px) {
-    body {
-        background-color: red;
-    }
 }
